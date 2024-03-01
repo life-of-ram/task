@@ -1,0 +1,49 @@
+.middle {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  text-align: center;
+  color: white;
+  width: 406px;
+  min-width: 400px;
+  height: 333px;
+}
+
+/* .textInput {
+  height: '400px';
+  width: '400px';
+  border: '2px solid rgba(255; 255; 255; 1)';
+  display: 'flex';
+  align-items: 'center';
+  justify-content: 'left';
+  margin: 'auto';
+  border-radius: '10px';
+  color: red;
+} */
+
+.input::placeholder {
+  color: red;
+  accent-color: violet;
+  font-size: 200px;
+}
+
+.ellipse1 {
+  position: absolute;
+  width: 25%;
+  left: 0;
+  top: 0;
+}
+
+.ellipse2 {
+  position: absolute;
+  width: 15%;
+  left: 0;
+  bottom: 0;
+}
+
+.vector {
+  position: absolute;
+  right: 0;
+  width: 30%;
+  bottom: 0;
+}
